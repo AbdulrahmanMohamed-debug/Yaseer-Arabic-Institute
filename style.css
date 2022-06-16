@@ -229,7 +229,7 @@
 .hero {
     /*background: #000000;
     background: linear-gradient(to right, #161616, #000000);*/
-    background: url(stars2.jpg) no-repeat center center fixed;
+    background: url(Graphics/stars2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -310,7 +310,7 @@
     /*background-color: #131313;*/
     padding: 10rem 0;
 
-    background: url(stars3.jpg) no-repeat center center;
+    background: url(Graphics/stars3.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -433,7 +433,7 @@
 .contact {
     width: 100%;
     height: 100vh;
-    background: url(letters2.jpg) no-repeat center center fixed;
+    background: url(Graphics/letters2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
