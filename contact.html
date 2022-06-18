@@ -24,7 +24,7 @@
             <a href="index.html" id="navbar__logo">Yaseer Institute</a>
 
             <div class="navbar__image">
-                <img class="image1" src="HDLOGO1r.png" />
+                <img class="image1" src="Graphics/HDLOGO1r.png" />
             </div>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -41,9 +41,9 @@
                 <li class="navbar__item">
                     <a href="contact.html" class="navbar__links" id="contact-page">Contact</a>
                 </li>
-                <li class="navbar__item">
+                <!--<li class="navbar__item">
                     <a href="#donate" class="navbar__links" id="donate-page">Donate</a>
-                </li>
+                </li>-->
                 <li class="navbar__btn">
                     <a href="#learn" class="navbar__links" id="learn-page">Start Learning!</a>
                 </li>
@@ -54,6 +54,7 @@
     <div class="contact">
         <form onsubmit="sendEmail(); reset(); return false;">
             <h3>GET IN TOUCH</h3>
+            <h4>Site under construction, pls send email to the one mdotz1234@gmail.com</h4>
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="emial" id="email" placeholder="Your E-mail" required>
             <input type="text" id="phone" placeholder="Phone #" required>
@@ -66,8 +67,8 @@
         function sendEmail() {
             Email.send({
                 Host: "smtp.gmail.com",
-                Username: "annursacramento@gmail.com",
-                Password: "Abusimba92",
+                Username: "a.saeedmohamed455@gmail.com",
+                Password: "Saftey is in the fear of Allah",
                 To: 'a.saeedmohamed455@gmail.com',
                 From: document.getElementById("email").value,
                 Subject: "Contact Form Inquiry",
@@ -76,7 +77,7 @@
                     + "<br>Phone #: " + document.getElementById("phone").value
                     + "<br>Message: " + document.getElementById("message").value
             }).then(
-                message => alert("Message sent successfully!")
+                message => alert("Site under construction, pls send email to the one mdotz1234@gmail.com!")
             );
         }
     </script>
