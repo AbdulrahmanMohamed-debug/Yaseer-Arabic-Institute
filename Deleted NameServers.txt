@@ -1,0 +1,15 @@
+ns42.cloudns.net
+ns41.cloudns.net
+
+ns2.epizy.com
+
+ns1.epizy.com
+
+ns44.cloudns.net
+
+ns43.cloudns.net
+
+https://docs.netlify.com/forms/setup/
+
+Add a simple attribute to any HTML form to start receiving submissions in your Netlify site admin panel, without JavaScript or any backend coding.
+
