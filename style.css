@@ -75,7 +75,6 @@
     list-style: none;
     display: flex;
     align-items: center;
-    position: absolute;
 }
 
 .navbar__links {
