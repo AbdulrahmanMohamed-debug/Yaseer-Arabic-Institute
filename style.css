@@ -144,7 +144,11 @@
     }
 
     .hero__heading {
-        padding-top: 50%;
+        padding-top: 75%;
+    }
+
+    #hero_btn {
+        margin-bottom: 25%;
     }
 
     .about {
