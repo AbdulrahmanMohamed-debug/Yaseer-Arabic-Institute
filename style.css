@@ -96,10 +96,11 @@
     background: linear-gradient(to right, #FFC837, #FF8008);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 13px;
-    border-radius: 10px;
-    transition: 0.25s ease;
+    border-radius: 5px;
     margin-right: 5px;
+    transition: all 0.35s;
 }
+
 
 .navbar__btn a {
     font-weight: bold;
@@ -113,15 +114,12 @@
     max-width: 100%;
 }
 
+
 .navbar__btn:hover {
-    background: #b75d0a;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b08929, #a45104);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b9912c, #b05806);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: black;
+    background: #FF8008;
+    transition: all 0.35s;
 }
+
 
 .navbar__links:hover {
     color: black;
@@ -309,10 +307,7 @@
 
 .hero__description {
     font-size: 30px;
-    background: #da22ff;
-    background: -webkit-linear-gradient(to right,
-            #8f0eff,
-            #da22ff);
+    background: #8b8b8b;
 
     background-size: 100%;
     -webkit-background-clip: text;
@@ -416,9 +411,9 @@
 
 .main__btn {
     font-size: 1.3rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF8008;
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+    background: linear-gradient(to right, #FFC837, #FF8008);
     padding: 10px 40px;
     border: none;
     border-radius: 4px;
@@ -444,7 +439,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ff1ead;
+    background: #FF8008;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -526,7 +521,7 @@ form button {
 .footer {
     background-color: #24262b;
     margin: 0;
-    padding: 70px 0;
+    padding-top: 0px;
     box-sizing: border-box;
 
 }
@@ -534,7 +529,7 @@ form button {
 .footer__container {
     max-width: 1170 px;
     background-color: red;
-    margin: auto
+    margin: auto;
 }
 
 ul {
@@ -544,11 +539,16 @@ ul {
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .footer__col {
-    width: 25%;
+    width: 50%;
     padding: 0 15px;
+}
+
+#footer_contact {
+    width: 100%;
 }
 
 .footer__col h4 {
