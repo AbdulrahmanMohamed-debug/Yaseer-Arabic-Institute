@@ -318,7 +318,7 @@
 
 /*Where ?!!*/
 .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid rgb(208, 208, 30);
 }
 
 @meida screen and (max-width:750px) {
@@ -516,11 +516,55 @@ form button {
     border-radius: 30px;
 }
 
+.FAQs {
+    font-family: "Quicksand", sans-serif;
+    background: #1c1c1c;
+    color: #fff list-style-type: lower-alpha;
+
+}
+
+.first {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff list-style-type: lower-alpha;
+}
+
+.FAQs h3 {
+    color: gold;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0rem;
+}
+
+ul>li {
+    margin-left: 30px;
+}
+
+ul {
+    margin: 1rem;
+
+}
+
+.list1 {
+    margin: 0.5rem;
+    color: #fff;
+    list-style-type: circle;
+}
+
+.list2 {
+    color: #ed1a52;
+}
+
 
 /*Footer section*/
 .footer {
     background-color: #24262b;
-    margin: 0;
+    padding: 1rem 0rem;
+    border-top: 2rem #ed1a52;
     padding-top: 0px;
     box-sizing: border-box;
 
